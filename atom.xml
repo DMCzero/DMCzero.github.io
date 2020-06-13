@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/DMCzero/"/>
-  <updated>2020-06-13T15:24:44.546Z</updated>
+  <updated>2020-06-13T15:59:29.075Z</updated>
   <id>https://github.com/DMCzero/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于个人对seewo一体机的见解</title>
+    <link href="https://github.com/DMCzero/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%AF%B9seewo%E4%B8%80%E4%BD%93%E6%9C%BA%E7%9A%84%E8%A7%81%E8%A7%A3.html"/>
+    <id>https://github.com/DMCzero/%E5%85%B3%E4%BA%8E%E4%B8%AA%E4%BA%BA%E5%AF%B9seewo%E4%B8%80%E4%BD%93%E6%9C%BA%E7%9A%84%E8%A7%81%E8%A7%A3.html</id>
+    <published>2020-06-13T15:26:13.000Z</published>
+    <updated>2020-06-13T15:59:29.075Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="关于seewo"><a href="#关于seewo" class="headerlink" title="关于seewo"></a>关于seewo</h1><p>这是个配置偏低的一体机，但为了适应教学使用也是可以过得去。</p><p>本机原本装配win7，后来厂商似乎是为了迎合时代，改成了预装win10。但预装的win10是厂商阉割的，阉割更新系统，不能直接激活。</p><p>对于原厂的配件，seewo也蛮搞笑的，他们家的预装软件是为了office服务的，但是他预装给你的office并没有激活（笑</p><p>低压u+集显，够了。</p><h1 id="关于这台seewo"><a href="#关于这台seewo" class="headerlink" title="关于这台seewo"></a>关于这台seewo</h1><p>这台seewo已经被我和朋友改得七七八八了，升成了ltsc 1809版本（其实是为了更好的使用微软商店）</p><p>关闭了自带的游戏模式（负优化）</p><p>为了避免机械硬盘高延迟 吃满盘问题高频发生，已经适当调节硬盘相关设置了。问题是避免不了的，只能避免发生频次，有能耐就找校方劝说去给电脑整个固态。</p><h2 id="对于新系统不能关闭整机问题。"><a href="#对于新系统不能关闭整机问题。" class="headerlink" title="对于新系统不能关闭整机问题。"></a>对于新系统不能关闭整机问题。</h2><p>这个问题的解决也挺巧的，因为我以前接触过linux，双系统下windows的快速启动会mute掉linux的引导（在双显卡笔记本上折腾linux就是傻逼）</p><p>解决方法就是在控制面板的电源管理（小图标查看）上 “选择电源按钮”  接着按下图顺序 把快速启动关上即可</p><p><img src="https://puu.sh/FVY2G/7bb8148abc.png" alt=""></p><h2 id="本机应用"><a href="#本机应用" class="headerlink" title="本机应用"></a>本机应用</h2><ul><li><p>本机ppt excel word都是用office全家桶，但时效半年</p><p>当你们面临需要激活时，可以在D盘找到office tool进行激活 kms地址：kms.beer.loli</p><p>详细教程我之后会写，现在也可以咨询我。</p></li><li><p>图片使用的是ImageGlass，因为没广告。</p></li><li><p>视频播放器是potplayer 功能多 无广告 无过多插件</p></li><li><p>本机不推荐配备杀毒软件，如需安装，请装火绒。<a href="https://www.huorong.cn/">https://www.huorong.cn/</a></p></li></ul><h2 id="本机IP（其实没必要）"><a href="#本机IP（其实没必要）" class="headerlink" title="本机IP（其实没必要）"></a>本机IP（其实没必要）</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">172.16.15.98  # 第4位（98）任意改，其他不推荐改动，如果98无法联网 你可以试试其他数字</span><br><span class="line">255.255.255.0</span><br><span class="line">172.16.15.254</span><br><span class="line"></span><br><span class="line">202.96.128.86</span><br><span class="line">202.96.134.133</span><br></pre></td></tr></table></figure><h2 id="对使用者的一些话。"><a href="#对使用者的一些话。" class="headerlink" title="对使用者的一些话。"></a>对使用者的一些话。</h2><p>既然你上手了这台电脑，请务必尽心尽责。对于滥装应用程序和捆绑插件以及广告什么的，我觉得你应该解决这类问题，并维护好这台电脑，起码是为了老师的上课体验着想。</p><p>如果你觉得没什么所谓，那我十分同情你看到这里，你可能什么都不懂。之后你可以发挥你的聪明才智，随意玩弄这台电脑，反正这东西也不会用太久。</p><p>电脑已经配备了自动关机，关机时间是17：10和11：45，可以自行在右下角找出程序来自己调整时间，当你打开的时候，如果你直接退出程序，那就会失效，你可以最小化，或者重新启动该程序。</p><p>如果你会玩电脑，懂的比我更多，优化得更好，那我十分感谢你能光临于此，并十分感谢你的付出。</p><p>问题见解 qq：2410451458</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;关于seewo&quot;&gt;&lt;a href=&quot;#关于seewo&quot; class=&quot;headerlink&quot; title=&quot;关于seewo&quot;&gt;&lt;/a&gt;关于seewo&lt;/h1&gt;&lt;p&gt;这是个配置偏低的一体机，但为了适应教学使用也是可以过得去。&lt;/p&gt;
+&lt;p&gt;本机原本装配win7，后来
+      
+    
+    </summary>
+    
+    
+      <category term="研究" scheme="https://github.com/DMCzero/categories/%E7%A0%94%E7%A9%B6/"/>
+    
+      <category term="学习" scheme="https://github.com/DMCzero/categories/%E7%A0%94%E7%A9%B6/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习" scheme="https://github.com/DMCzero/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>关于icarus主题配置问题</title>
