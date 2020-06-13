@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/DMCzero/"/>
-  <updated>2020-06-13T15:03:19.497Z</updated>
+  <updated>2020-06-13T15:10:41.603Z</updated>
   <id>https://github.com/DMCzero/</id>
   
   <author>
@@ -18,33 +18,33 @@
   
   <entry>
     <title>2-5-分数化小数</title>
-    <link href="https://github.com/DMCzero/posts/undefined/"/>
-    <id>https://github.com/DMCzero/posts/undefined/</id>
-    <published>2020-06-13T15:02:22.000Z</published>
-    <updated>2020-06-13T15:03:19.497Z</updated>
+    <link href="https://github.com/DMCzero/2-5-%E5%88%86%E6%95%B0%E5%8C%96%E5%B0%8F%E6%95%B0.html"/>
+    <id>https://github.com/DMCzero/2-5-%E5%88%86%E6%95%B0%E5%8C%96%E5%B0%8F%E6%95%B0.html</id>
+    <published>2020-06-13T15:09:56.000Z</published>
+    <updated>2020-06-13T15:10:41.603Z</updated>
     
-    <content type="html"><![CDATA[<p>2-5-分数化</p><a id="more"></a><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a, b, c, res;</span><br><span class="line">    <span class="keyword">int</span> kase = <span class="number">0</span>, i, n, m;</span><br><span class="line">    <span class="keyword">while</span>(<span class="built_in">cin</span> &gt;&gt; a &gt;&gt; b &gt;&gt; c)</span><br><span class="line">    &#123;</span><br><span class="line">        i = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span>(a == <span class="number">0</span> &amp;&amp; b == <span class="number">0</span> &amp;&amp; c == <span class="number">0</span>)</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(a &gt; <span class="number">1000000</span> &amp;&amp; b &gt; <span class="number">1000000</span> &amp;&amp; c &gt; <span class="number">100</span>)</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">            </span><br><span class="line">    n = a/b;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"Case "</span> &lt;&lt; ++kase &lt;&lt; <span class="string">": "</span> &lt;&lt; n &lt;&lt; <span class="string">"."</span>;</span><br><span class="line"></span><br><span class="line">    m = a%b;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span>(i++ &lt; c)</span><br><span class="line">    &#123;</span><br><span class="line">        m *= <span class="number">10</span>;</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; m/b;</span><br><span class="line">        m %= b;</span><br><span class="line">    &#125;</span><br><span class="line">    m *= <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">if</span>(((m%b)*<span class="number">10</span>/b) &gt; <span class="number">5</span>)</span><br><span class="line">        res = m/b + <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        res = m/b;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; res;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<a id="more"></a><p>s</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;2-5-分数化&lt;/p&gt;
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+&lt;p&gt;s&lt;/p&gt;
+
+      
     
     </summary>
     
     
-      <category term="算法" scheme="https://github.com/DMCzero/categories/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="c++" scheme="https://github.com/DMCzero/categories/%E7%AE%97%E6%B3%95/c/"/>
-    
-    
-      <category term="算法" scheme="https://github.com/DMCzero/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>不蒜子统计常见问题</title>
-    <link href="https://github.com/DMCzero/posts/89986481/"/>
-    <id>https://github.com/DMCzero/posts/89986481/</id>
+    <link href="https://github.com/DMCzero/theme/%E4%B8%8D%E8%92%9C%E5%AD%90%E7%BB%9F%E8%AE%A1%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.html"/>
+    <id>https://github.com/DMCzero/theme/%E4%B8%8D%E8%92%9C%E5%AD%90%E7%BB%9F%E8%AE%A1%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.html</id>
     <published>2019-12-21T00:46:08.000Z</published>
     <updated>2020-06-13T10:58:13.316Z</updated>
     
@@ -72,8 +72,8 @@
   
   <entry>
     <title>github Issue 作为博客微型数据库的应用</title>
-    <link href="https://github.com/DMCzero/posts/e7fe3cc/"/>
-    <id>https://github.com/DMCzero/posts/e7fe3cc/</id>
+    <link href="https://github.com/DMCzero/theme/github-Issue-%E4%BD%9C%E4%B8%BA%E5%8D%9A%E5%AE%A2%E5%BE%AE%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E5%BA%94%E7%94%A8.html"/>
+    <id>https://github.com/DMCzero/theme/github-Issue-%E4%BD%9C%E4%B8%BA%E5%8D%9A%E5%AE%A2%E5%BE%AE%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E5%BA%94%E7%94%A8.html</id>
     <published>2019-11-28T14:02:05.000Z</published>
     <updated>2020-06-13T10:58:13.316Z</updated>
     
@@ -98,8 +98,8 @@
   
   <entry>
     <title>github page网站cdn优化加速</title>
-    <link href="https://github.com/DMCzero/posts/346ce02e/"/>
-    <id>https://github.com/DMCzero/posts/346ce02e/</id>
+    <link href="https://github.com/DMCzero/theme/github-page%E7%BD%91%E7%AB%99cdn%E4%BC%98%E5%8C%96%E5%8A%A0%E9%80%9F.html"/>
+    <id>https://github.com/DMCzero/theme/github-page%E7%BD%91%E7%AB%99cdn%E4%BC%98%E5%8C%96%E5%8A%A0%E9%80%9F.html</id>
     <published>2019-09-25T08:41:46.000Z</published>
     <updated>2020-06-13T10:58:13.316Z</updated>
     
@@ -124,8 +124,8 @@
   
   <entry>
     <title>博客源码分享</title>
-    <link href="https://github.com/DMCzero/posts/1a54ada2/"/>
-    <id>https://github.com/DMCzero/posts/1a54ada2/</id>
+    <link href="https://github.com/DMCzero/theme/%E5%8D%9A%E5%AE%A2%E6%BA%90%E7%A0%81%E5%88%86%E4%BA%AB.html"/>
+    <id>https://github.com/DMCzero/theme/%E5%8D%9A%E5%AE%A2%E6%BA%90%E7%A0%81%E5%88%86%E4%BA%AB.html</id>
     <published>2019-09-19T14:10:43.000Z</published>
     <updated>2020-06-13T10:58:13.317Z</updated>
     
@@ -152,8 +152,8 @@
   
   <entry>
     <title>博客换肤的一种实现方式思路</title>
-    <link href="https://github.com/DMCzero/posts/1c5449cf/"/>
-    <id>https://github.com/DMCzero/posts/1c5449cf/</id>
+    <link href="https://github.com/DMCzero/theme/%E5%8D%9A%E5%AE%A2%E6%8D%A2%E8%82%A4%E7%9A%84%E4%B8%80%E7%A7%8D%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F%E6%80%9D%E8%B7%AF.html"/>
+    <id>https://github.com/DMCzero/theme/%E5%8D%9A%E5%AE%A2%E6%8D%A2%E8%82%A4%E7%9A%84%E4%B8%80%E7%A7%8D%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F%E6%80%9D%E8%B7%AF.html</id>
     <published>2019-09-17T11:13:16.000Z</published>
     <updated>2020-06-13T10:58:13.317Z</updated>
     
@@ -179,8 +179,8 @@
   
   <entry>
     <title>博客中gitalk最新评论的获取</title>
-    <link href="https://github.com/DMCzero/posts/47c45f64/"/>
-    <id>https://github.com/DMCzero/posts/47c45f64/</id>
+    <link href="https://github.com/DMCzero/theme/%E5%8D%9A%E5%AE%A2%E4%B8%ADgitalk%E6%9C%80%E6%96%B0%E8%AF%84%E8%AE%BA%E7%9A%84%E8%8E%B7%E5%8F%96.html"/>
+    <id>https://github.com/DMCzero/theme/%E5%8D%9A%E5%AE%A2%E4%B8%ADgitalk%E6%9C%80%E6%96%B0%E8%AF%84%E8%AE%BA%E7%9A%84%E8%8E%B7%E5%8F%96.html</id>
     <published>2019-09-12T17:03:06.000Z</published>
     <updated>2020-06-13T10:58:13.316Z</updated>
     
@@ -208,8 +208,8 @@
   
   <entry>
     <title>博客图片上传picgo工具github图传使用</title>
-    <link href="https://github.com/DMCzero/posts/9e7c733f/"/>
-    <id>https://github.com/DMCzero/posts/9e7c733f/</id>
+    <link href="https://github.com/DMCzero/theme/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0picgo%E5%B7%A5%E5%85%B7github%E5%9B%BE%E4%BC%A0%E4%BD%BF%E7%94%A8.html"/>
+    <id>https://github.com/DMCzero/theme/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0picgo%E5%B7%A5%E5%85%B7github%E5%9B%BE%E4%BC%A0%E4%BD%BF%E7%94%A8.html</id>
     <published>2019-06-20T09:31:57.000Z</published>
     <updated>2020-06-13T10:58:13.317Z</updated>
     
@@ -235,8 +235,8 @@
   
   <entry>
     <title>安装、部分配置icarus主题中文版</title>
-    <link href="https://github.com/DMCzero/posts/52c38f29/"/>
-    <id>https://github.com/DMCzero/posts/52c38f29/</id>
+    <link href="https://github.com/DMCzero/theme/%E5%AE%89%E8%A3%85%E3%80%81%E9%83%A8%E5%88%86%E9%85%8D%E7%BD%AEicarus%E4%B8%BB%E9%A2%98%E4%B8%AD%E6%96%87%E7%89%88.html"/>
+    <id>https://github.com/DMCzero/theme/%E5%AE%89%E8%A3%85%E3%80%81%E9%83%A8%E5%88%86%E9%85%8D%E7%BD%AEicarus%E4%B8%BB%E9%A2%98%E4%B8%AD%E6%96%87%E7%89%88.html</id>
     <published>2019-02-28T02:36:56.000Z</published>
     <updated>2020-06-13T10:58:13.317Z</updated>
     
